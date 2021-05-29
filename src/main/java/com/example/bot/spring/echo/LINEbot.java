@@ -31,7 +31,7 @@ import com.linecorp.bot.spring.boot.annotation.LineMessageHandler;
 
 @SpringBootApplication
 @LineMessageHandler
-public class EchoApplication {
+public class LINEbot {
     private final Logger log = LoggerFactory.getLogger(EchoApplication.class);
 
     public static void main(String[] args) {
