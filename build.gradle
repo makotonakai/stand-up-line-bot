@@ -14,7 +14,9 @@
  * under the License.
  */
 
-apply plugin: 'org.springframework.boot'
+plugins {
+	id 'org.springframework.boot' version '2.5.0'
+}
 
 dependencies {
     implementation project(':line-bot-spring-boot')
