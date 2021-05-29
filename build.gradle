@@ -15,12 +15,17 @@
  */
 
 plugins {
+    id 'java'
 	id 'org.springframework.boot' version '2.5.0'
 }
 
-dependencies {
-    implementation project(':line-bot-spring-boot')
-    implementation "org.springframework.boot:spring-boot-starter-web"
+repositories {
+    mavenCentral() 
+}
 
+dependencies {
+    implementation "com.linecorp.bot:line-bot-spring-boot:4.3.0"
+
+    implementation "org.springframework.boot:spring-boot-starter-web"
     testImplementation "org.springframework.boot:spring-boot-starter-test"
 }
