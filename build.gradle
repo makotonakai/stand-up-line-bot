@@ -25,7 +25,11 @@ repositories {
 
 dependencies {
     implementation "com.linecorp.bot:line-bot-spring-boot:4.3.0"
+}
 
-    implementation "org.springframework.boot:spring-boot-starter-web"
-    testImplementation "org.springframework.boot:spring-boot-starter-test"
+project:{
+    dependencies {
+        implementation "org.springframework.boot:spring-boot-starter-web"
+        testImplementation "org.springframework.boot:spring-boot-starter-test"
+    }
 }
