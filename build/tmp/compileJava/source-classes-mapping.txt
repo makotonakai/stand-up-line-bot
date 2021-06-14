@@ -1,2 +1,0 @@
-com/example/bot/spring/echo/EchoApplication.java
- com.example.bot.spring.echo.EchoApplication
